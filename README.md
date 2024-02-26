@@ -22,4 +22,11 @@ Current protected habitat networks may be unsuitable to facilitate climate induc
 
 Code which makes us chapter 2 and 3 of my thesis 
 
-I build a 
+I build a simulation of a single population in discrete space (2-dimensional) and time with a latitudinal temperature gradient. 
+
+All code is in the python3 programming language 
+
+### Abstract:
+
+Temperature change can be highly volatile across space and time. Spatial variation creates climatic micro-refugia due to topographic complexity of landscapes, while temporal fluctuations (which are increasing with climate change) create opportunities for colonisation but also wipe out existing populations. A better understanding of this variation, and how spatial and temporal fluctuations interact, is essential to predict which species will be most impacted by current and future climate change. Using a single species population dynamics model in discrete time and space we find the emergence of a spatial lag between the latitudinal position of the populations range margin and the latitudinal point beyond which the temperature is too cold to sustain a reproducing population. We show how spatiotemporal fluctuations impact a species’ ability to track a shifting climate, through its effect on the size of the lag, along a latitudinal gradient at its colder range margin. 
+
