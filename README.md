@@ -1,6 +1,6 @@
 # PhD projects code
 
-Some code from my two main project carried out thus far as part of my PhD
+Some code from the two main projects carried out thus far as part of my PhD
 
 ## Project 1 
 
@@ -24,7 +24,11 @@ Current protected habitat networks may be unsuitable to facilitate climate induc
 
 Code which makes us chapter 2 and 3 of my thesis 
 
-I build a simulation of a single population in discrete space (2-dimensional) and time with a latitudinal temperature gradient. 
+I build a simulation of a single population in discrete space (2-dimensional) and time (with a range of warming rates) with a latitudinal temperature gradient. 
+
+Temporal and spatial environmental fluctuations are implemented with stationary Gaussian processes (with zero mean).
+
+Dispersal is calculated by calculating the convolution of the population density lattice and a 2D negative exponential dispersal kernel using Fast Fourier Transformations
 
 All code is in the python3 programming language 
 
